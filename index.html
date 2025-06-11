@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reseller Panel Otomatis - Beli Murah & Cepat</title>
+    <style>
+        :root {
+            --primary: #00a859;
+            --secondary: #000000;
+            --accent: #00ff88;
+            --text: #ffffff;
+            --text-dark: #333333;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary);
+            color: var(--text);
+            background-image: url('https://example.com/background-pattern.png');
+            background-size: cover;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--accent);
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        
+        .product-card {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid var(--primary);
+            border-radius: 10px;
+            padding: 25px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 168, 89, 0.2);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 255, 136, 0.4);
+            border-color: var(--accent);
+        }
+        
+        .product-title {
+            color: var(--accent);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px dashed rgba(0, 168, 89, 0.3);
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .btn {
+            display: block;
+            background: linear-gradient(to right, var(--primary), var(--accent));
+            color: var(--text);
+            text-align: center;
+            padding: 12px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        
+        .btn:hover {
+            background: linear-gradient(to right, var(--accent), var(--primary));
+            box-shadow: 0 0 15px rgba(0, 255, 136, 0.5);
+        }
+        
+        .contact {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 40px 0;
+            margin-top: 50px;
+            text-align: center;
+            border-top: 2px solid var(--primary);
+        }
+        
+        .whatsapp-btn {
+            background: #25D366;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(37, 211, 102, 0.6);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: var(--secondary);
+            color: var(--text);
+            border-top: 1px solid var(--primary);
+        }
+        
+        @media (max-width: 768px) {
+            .products {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">RESELLER PANEL</div>
+            <p>Beli Otomatis 24 Jam - Proses Cepat & Murah</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="products">
+            <div class="product-card">
+                <h3 class="product-title">RESELLER PANEL 5K</h3>
+                <div class="price">Rp 5.000</div>
+                <ul class="features">
+                    <li>✅ Fitur Lengkap Reseller</li>
+                    <li>✅ Akses 24 Jam</li>
+                    <li>✅ Support CS</li>
+                    <li>✅ Proses Otomatis</li>
+                    <li>✅ Harga Terjangkau</li>
+                </ul>
+                <button class="btn">BELI SEKARANG</button>
+            </div>
+            
+            <div class="product-card">
+                <h3 class="product-title">PANEL UNLI 1</h3>
+                <div class="price">Rp 3.000</div>
+                <ul class="features">
+                    <li>✅ Kuota Unlimited</li>
+                    <li>✅ Masa Aktif 1 Hari</li>
+                    <li>✅ Stabil & Cepat</li>
+                    <li>✅ Proses Instan</li>
+                    <li>✅ Tanpa Ribet</li>
+                </ul>
+                <button class="btn">BELI SEKARANG</button>
+            </div>
+            
+            <div class="product-card">
+                <h3 class="product-title">PANEL UNLI 3K</h3>
+                <div class="price">Rp 3.000</div>
+                <ul class="features">
+                    <li>✅ Kuota Unlimited</li>
+                    <li>✅ Masa Aktif 3 Hari</li>
+                    <li>✅ Kualitas Premium</li>
+                    <li>✅ Garansi Replace</li>
+                    <li>✅ Support 24/7</li>
+                </ul>
+                <button class="btn">BELI SEKARANG</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="contact">
+        <div class="container">
+            <h2>Butuh Bantuan atau Info Lebih Lanjut?</h2>
+            <p>Hubungi kami melalui WhatsApp untuk respon cepat</p>
+            <a href="https://wa.me/6285923596743" class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Hubungi 6285923596743
+            </a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Reseller Panel Otomatis. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</body>
+</html>
